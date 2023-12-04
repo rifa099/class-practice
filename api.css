@@ -1,0 +1,30 @@
+/* /api.css */
+
+/* ... (previous styles) ... */
+
+.mealStyle {
+    background-color: #FFE4E1; /* Light pink background color */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure child elements don't overflow */
+
+    /* Flexbox for better alignment */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+    border: 4px solid #fff; /* White border around the image */
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (previous styles) ... */
+
